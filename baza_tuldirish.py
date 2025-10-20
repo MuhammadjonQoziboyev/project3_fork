@@ -83,6 +83,7 @@ ish.executemany("INSERT INTO sklad (id, kitobId, soni, summasi) VALUES (?, ?, ?,
 # -------------------------------------------
 # 4. soldBook - 20 ta
 sold_books = []
+# bu joyda sikl orqali sanani random qilinmoqda
 for i in range(1, 21):
     kitobId = random.randint(1, 20)
     soni = random.randint(1, 10)
