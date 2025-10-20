@@ -96,6 +96,7 @@ ish.executemany("INSERT INTO soldBook (id, kitobId, soni, soldSummasi, sana) VAL
 
 # -------------------------------------------
 # Saqlash va yopish
+# bu joyda o`zgarishlar bazaga yuborilmoqda va baza yoplidi
 conn.commit()
 conn.close()
 
